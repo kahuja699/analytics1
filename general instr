@@ -1,0 +1,41 @@
+#my first r file
+#control by starting#
+women
+#coment+enter to execute command
+?women
+?mean
+#?before functn to seek help
+mtcars
+?mtcars
+mean(mtcars$mpg)
+name(mtcars)
+mean(mtcars$hp)
+colmeans(mtcars)
+rommeans(mtcars)
+?head(mtcars)
+tail(mtcars,1)#last row
+hist(mtcars$mpg)
+hist(mtcars$mpg, break=3)
+
+#vector
+x=c(1,2,5,7)
+x
+class(x)
+x1=c(2l, 8l)
+class(x1)
+class(mtcrs)
+x3=c("a","b","karuna")
+class(x3)
+x4=c(true,false,t,f)
+x4
+x5=1:10000
+x5
+x6<-2  #another way of assign ; other is =
+x7 = rnorm(1000)
+length(x7)
+mean (x7)
+sd(x7)
+plot(density(x7))
+hist(x7)
+hist(x7,freq=f)
+points density x7
