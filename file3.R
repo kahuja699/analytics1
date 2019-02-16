@@ -143,7 +143,7 @@ head(students)
 write.csv(students,'fms.csv',row.names = F)
 students2 = read.csv('fms.csv')
 head(students2)
-(students3 = read.csv(file.choose())))
+(students3 = read.csv(file.choose()))
 
 
 #students
@@ -156,4 +156,4 @@ students[students$gender=='F'|students$college== 'srcc',]
 students %>% filter(gender=='M' & marks1>60)
 students%>%group_by(gender) %>% summarise(mean(marks1), mean(marks2))
 students %>% group_by(college) %>% summarise(max(marks1),max(marks2))
-students %>% filter(college=='FMS') %>% select(marks1, marks2)
+students %>% filter(college=='fms') %>% select(marks1, marks2))
